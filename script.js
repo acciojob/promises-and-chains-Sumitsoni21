@@ -7,7 +7,7 @@ document.getElementById("voteForm").addEventListener("submit", function (e) {
 
   // Input validation
   if (!name || isNaN(age)) {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
